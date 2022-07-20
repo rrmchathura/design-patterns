@@ -6,5 +6,5 @@ public abstract class Handler {
         this.successor = successor;
     }
 
-  //  public abstract double applytax
+    public abstract double applyTax(Customs_Package customs_package);
 }
